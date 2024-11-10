@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;  
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+header{
+    background-color: #636363;
+    position: fixed ;
+    top: 0;
+    flex-direction: row;   
+    height: 100px;
+    width: 100%;
+    z-index: 10;
+}
+
+header nav{
+    display: flex;  
+    justify-content: space-around;
+    padding: 20px;
+    width: 100%;
+    align-items: center;
+    color: #ffffff;
+}
+
+
+
+main{
+    max-width: 968px;
+    margin: 110px auto;
+    background-color: #1d1d1d;
+}
+
+main article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+main article{
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    padding: 4px;
+    border: solid 2px #1d1d1d;
+
+}
+
+main .card .card-body{
+    padding: 8px;
+    transition: all .4s;
+}
+
+main .card .card-body :hover{
+    background-color: #c0c0c0;
+    box-shadow: 2px 2px 2px 2px #6e6e6e;
+}
+
+main .temas{
+    color: #f5f5dc;
+}
+
+main .temas ul {
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+}
+
+main .temas li{
+    margin-right: 20px; 
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+.publicidades{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+    gap: 2px;
+}
+
+main .publicidades img{
+    width: 100%;
+    height: 100%;
+}
+.primera{
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+
+.segunda{
+    grid-column: 3/5;
+    grid-row: 1/2;
+}
+
+
+
+.cuarta{
+    grid-column: 4/5;
+    grid-row: 2/4;
+}
+
+.sexta{
+    grid-column: 2/4;
+    grid-row: 3/4;
+}
+
+footer{
+    background-color:#636363 ;
+    text-align: center;
+    height: 200px;
+}
+
+footer h2{
+    font-size: 25px;
+    color: #ffffff;
+}
+
+footer a{
+    font-size: 40px;
+    bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color:rgb(99, 99, 99) ;
+    text-align: center;
+    height: 200px;     
+}
